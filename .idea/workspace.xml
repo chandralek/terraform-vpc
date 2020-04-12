@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34912f62-5d89-4f28-b319-90c1bbb4e005" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/terraform.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/vpc.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonprod/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonprod/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonprod/state.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonprod/terraform.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonprod/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prod/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prod/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prod/state.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prod/terraform.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prod/vars.tf" afterDir="false" />
-    </list>
+    <list default="true" id="34912f62-5d89-4f28-b319-90c1bbb4e005" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nonprod/state.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="168">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -158,11 +144,6 @@
               <item name="terraform-vpc" type="462c0819:PsiDirectoryNode" />
               <item name="nonprod" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="terraform-vpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform-vpc" type="462c0819:PsiDirectoryNode" />
-              <item name="prod" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,6 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -227,16 +209,15 @@
       <updated>1586531383453</updated>
       <workItem from="1586531385222" duration="936000" />
       <workItem from="1586536748271" duration="338000" />
-      <workItem from="1586672104946" duration="1065000" />
+      <workItem from="1586672104946" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2339000" />
+    <option name="totallyTimeSpent" value="2626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26434678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,7 +228,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nonprod/state.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
