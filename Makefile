@@ -10,7 +10,7 @@ prod: ## Apply Module in Prod Environement
 	@git pull
 	@terraform workspace new prod || terraform workspace select prod
 	@terraform init
-	@terraform apply -auto-approve -var-file nonprod.tfvars
+	@terraform apply -auto-approve -var-file prod.tfvars
 
 nonprod: ## Apply Module in NonProd Environement
 	@git pull
