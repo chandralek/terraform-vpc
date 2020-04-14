@@ -6,11 +6,11 @@ resource "aws_internet_gateway" "igw" {
   }
 }
 
-resource "aws_eip" "lb" {
+resource "aws_eip" "nat-gw" {
   vpc      = true
 }
 
 resource "aws_nat_gateway" "gw" {
-  allocation_id = aws_eip.lb.id
+  allocation_id = aws_eip.nat-gw.id
   subnet_id     = element(aws_subnet.public-subnets.*.id,0)
 }
