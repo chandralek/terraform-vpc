@@ -14,7 +14,7 @@ resource "aws_route" "nonprod-private" {
   vpc_peering_connection_id = aws_vpc_peering_connection.mgmt-to-nonprod.id
 }
 
-resource "aws_route" "nonprod-private" {
+resource "aws_route" "nonprod-public" {
   route_table_id            = aws_route_table.public-rt.id
   destination_cidr_block    = data.aws_vpc.management.cidr_block
   vpc_peering_connection_id = aws_vpc_peering_connection.mgmt-to-nonprod.id
