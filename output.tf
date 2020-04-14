@@ -9,3 +9,7 @@ output "PUBLIC_SUBNETS" {
 output "PRIVATE_SUBNETS" {
   value = aws_subnet.private-subnets.*.id
 }
+
+output "MGMT_VPC_ID" {
+  value = var.MGMT_VPC_ID
+}
