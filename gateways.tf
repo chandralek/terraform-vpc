@@ -5,3 +5,8 @@ resource "aws_internet_gateway" "igw" {
     Name = var.TAGS["ENV"]
   }
 }
+
+resource "aws_eip" "lb" {
+  vpc      = true
+}
+
