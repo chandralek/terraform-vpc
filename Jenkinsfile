@@ -6,7 +6,7 @@ pipeline{
   }
 
   stages{
-    stages('Terramform init')
+    stage('Terramform init')
             {
               steps{
                 sh '''
@@ -15,7 +15,7 @@ pipeline{
               '''
               }
             }
-    stages('Terramform apply')
+    stage('Terramform apply')
             {
               when{
                 expression{
@@ -28,7 +28,7 @@ pipeline{
               '''
               }
             }
-    stages('Terramform destroy')
+    stage('Terramform destroy')
             {
               when{
                 expression{
