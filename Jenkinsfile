@@ -10,7 +10,7 @@ pipeline{
             {
               steps{
                 sh '''
-                  curl https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/terraform/install.sh|sudo bash
+                  terraform get -update
                   terraform init
               '''
               }
